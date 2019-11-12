@@ -15,5 +15,10 @@ module.exports = {
 		}
 
 		return true;
+	},
+	printResult: function(primesArray) {
+		for(let i = 0; i<primesArray.length; i++){
+			console.log(primesArray[i])
+		}
 	}
 }
